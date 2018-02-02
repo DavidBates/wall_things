@@ -1,0 +1,30 @@
+{
+  "name": "stranger_things_twitter_mentions",
+  "version": "1.0.0",
+  "description": "Checks and returns users mentions on twitter along with light indexes for animating the stranger things wall",
+  "main": "app.js",
+  "scripts": {
+    "dev-start": "npm run clean && npm run transpile && npm start",
+    "start": "babel-node app.js",
+    "transpile": "babel index.js --out-file app.js",
+    "clean": "rimraf app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Bates",
+  "license": "ISC",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "enum": "^2.5.0",
+    "node-persist": "^2.1.0",
+    "twitter": "^1.7.1",
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "chokidar-cli": "^1.1.1",
+    "npm-run-all": "*",
+    "rimraf": "*"
+  }
+}
