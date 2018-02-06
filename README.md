@@ -1,4 +1,4 @@
-# wall_things
+# Wall Things
 The wall was introduced in season 1 of Stranger Things. It was a way for Will (the lost child) to communicate to his mother from the Upside Down. This came after his mother thought she was going crazy with flashing lights in the house. She finally figured out that her son was reaching out to her through the lights to attempt to communicate danger to her. 
 
 ## Why make a tweetable wall? 
